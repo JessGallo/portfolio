@@ -1,0 +1,13 @@
+:root {
+    --green-color: #4d722b;
+    --marron-color: #501608;
+    --nude-color: #e5c9b1;
+    --sand-color: #9f7355;
+    --gray-color: #413523;
+}
+
+/* element selectors */
+body {
+    background-color: var(--nude-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
