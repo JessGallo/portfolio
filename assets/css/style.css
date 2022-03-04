@@ -25,7 +25,6 @@ body {
 /* HEADER styling */
 header {
     padding: 20px 35px;
-    background-color: var(--sand-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -35,6 +34,7 @@ header {
     background-image: url("../css/images/hero.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
 }
@@ -71,4 +71,17 @@ header nav ul li a:hover {
     color: var(--sand-color);
     border-radius: 30px;
     text-shadow: none;
+}
+
+/* hero/jumbotron styling */
+.hero {
+    background-image: url("../css/images/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
