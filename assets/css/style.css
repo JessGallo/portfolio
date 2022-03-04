@@ -16,9 +16,13 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding: 60px;
+}
+
 /* element selectors */
 body {
-    background-color: var(--nude-color);
+    background-color: white;
     font-family: Helvetica, Arial, sans-serf;
 }
 
@@ -84,4 +88,24 @@ header nav ul li a:hover {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+}
+
+.hero, .intro {
+    font-size: 60px;
+}
+
+/* background styling for ALL sections */
+.about-me, .my-work, .contact-me {
+    background-image: url("../css/images/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    align-items: center;
+    border: 0;
 }
