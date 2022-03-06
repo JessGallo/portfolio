@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --green-color: #4d722b;
-    --marron-color: #501608;
-    --nude-color: #e5c9b1;
-    --sand-color: #9f7355;
-    --gray-color: #413523;
-}
-
 a {
     text-decoration: none;
 }
@@ -107,5 +99,75 @@ header nav ul li a:hover {
     background-position: 80%;
     display: flex;
     align-items: center;
-    border: 0;
+}
+
+/* "my-work" section styling */
+.my-work h3 {
+    font-size: 3vw;
+    padding: 40px;
+}
+
+.work-sample h4 {
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.work-sample p {
+    font-size: 1.7vw;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.work-sample ul {
+    padding: 0 0 0 50px;
+}
+
+.work-sample ul li {
+    font-style: italic;
+    font-size: 1.7vw;
+    line-height: 1.5;
+}
+
+.work-sample {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space around;
+}
+
+#horiseon {
+    background-color: rgba(57, 93, 116, 0.6);
+    color: #ffffff;
+}
+
+#horiseon h4 {
+    color: #cdd6d6;
+}
+
+#run-buddy {
+    background-color: rgba(120, 152, 115, 0.6);
+    color: #fdfddf;
+}
+
+#run-buddy h4 {
+    color: #f9e037;
+}
+
+#fanpage {
+    background-color: rgba(248, 188, 155, 0.6);
+    color: #6b3319;
+}
+
+#fanpage h4 {
+    color: #d05f1a;
+}
+
+.work-sample img {
+    width: 50%;
+}
+
+.work-description {
+    align-items: 0 center;
+    padding: 60px;
 }
