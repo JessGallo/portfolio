@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --green-color: #4d722b;
+    --marron-color: #501608;
+    --nude-color: #e5c9b1;
+    --sand-color: #9f7355;
+    --gray-color: #413523;
+}
+
 a {
     text-decoration: none;
 }
@@ -87,7 +95,7 @@ header nav ul li a:hover {
 }
 
 /* background styling for ALL sections */
-.about-me, .my-work, .contact-me {
+footer, section {
     background-image: url("../css/images/hero.png");
     background-size: cover;
     background-position: center;
@@ -170,4 +178,24 @@ header nav ul li a:hover {
 .work-description {
     align-items: 0 center;
     padding: 60px;
+}
+
+/* contact-me section styling */
+.contact-me {
+    justify-content: space-around;
+    padding: 0 60px 0 150px;
+}
+
+.contact-me div {
+    text-align: left;
+    align-items: center;
+    line-height: 1.5;
+}
+.contact-me h3 {
+    font-size: 3vw;
+}
+
+.contact-me ul {
+    font-size: 2vw;
+    padding-left: 70px;
 }
