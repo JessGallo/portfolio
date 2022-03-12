@@ -77,23 +77,6 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/* hero/jumbotron styling */
-.hero {
-    background-image: url("../css/images/hero.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-}
-
-.hero, .intro {
-    font-size: 60px;
-}
-
 /* background styling for ALL sections */
 footer, section {
     background-image: url("../css/images/hero.png");
@@ -108,6 +91,43 @@ footer, section {
     display: flex;
     align-items: center;
 }
+
+/* hero/jumbotron styling */
+.hero {
+    background-image: url("../css/images/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero h2 {
+    font-size: 3vw;
+    color: #448fa0;
+}
+
+/* about-me section styling */
+
+.about-me div {
+    background-color: rgba(77, 114, 43, 0.6);
+    line-height: 1.5;
+    padding: 60px;
+}
+
+.about-me div h3 {
+    font-size: 3vw;
+    color: #cdd6d6;
+}
+
+.about-me div p {
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+
+
 
 /* "my-work" section styling */
 .my-work h3 {
@@ -192,10 +212,10 @@ footer, section {
     line-height: 1.5;
 }
 .contact-me h3 {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .contact-me ul {
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding-left: 70px;
 }
