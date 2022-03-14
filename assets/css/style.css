@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
 :root {
     --green-color: #4d722b;
     --marron-color: #501608;
@@ -76,10 +68,19 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background:#134b57;
-    color:#448fa0;
+    background:#165563;
+    color:#fff;
     border-radius: 30px;
     text-shadow: none;
+}
+
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+  text-decoration: none; 
+  color: #448fa0;
+  text-shadow: 0 0 10px rgba(21, 59, 60, 0.6);
 }
 
 /* background styling for ALL sections */
@@ -98,7 +99,7 @@ footer, section {
 .hero {
     background-color: #448fa0;
     width: auto;
-    height: 50vw;
+    height: 30vw;
     align-items: flex-end;
     justify-content: flex-end;
 }
@@ -111,6 +112,15 @@ footer, section {
 /* about-me section styling */
 .about-me {
     background-color: #e5c9b1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me h3 {
+    font-size: 4vw;
+    color: #448fa0;
 }
 
 .about-me div {
@@ -131,14 +141,17 @@ footer, section {
 }
 
 
-
 /* "my-work" section styling */
 .my-work {
     background-color: #448fa0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .my-work h3 {
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 40px;
     color: #448fa0;
 }
@@ -178,6 +191,14 @@ footer, section {
     opacity: 0;
 }
 
+.work-sample a:link,
+.work-sample a:visited,
+.work-sample a:hover,
+.work-sample a:active {
+  text-decoration: none;
+  color:rgba(205, 214, 214, 0);
+}
+
   /* work-sample HORISEON */
 #horiseon {
     display: flex;
@@ -187,16 +208,16 @@ footer, section {
     background-position: center;
     color: rgba(205, 214, 214, 0);
     font-display: none;
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
 }
 
 .horiseon:hover {
     background-color: rgba(57, 93, 116, 0.8);
     opacity: 100%;
     color: rgba(205, 214, 214, 1);
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
 }
 
   /*work-sample RUN BUDDY*/
@@ -208,16 +229,16 @@ footer, section {
     background-position: center;
     color: rgba(213, 195, 76, 0);
     font-display: none;
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
 }
 
 .run-buddy:hover {
     background-color: rgba(120, 152, 115, 0.8);
     opacity: 100%;
     color: rgba(213, 195, 76, 1);
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
 }
 
   /*work-sample FANPAGE */
@@ -229,23 +250,27 @@ footer, section {
     background-position: center;
     color: rgba(208, 95, 26, 0);
     font-display: none;
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
 }
 
 .fanpage:hover {
     background-color: rgba(248, 188, 155, 0.9);
     opacity: 100%;
     color: rgba(107, 51, 25, 1);
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
+}
+
+.fanpage a:link {
+    text-decoration: none;
 }
 
 /* contact-me section styling */
 .contact-me {
     justify-content: center;
-    padding: 0 60px 0 150px;
     background-color: #e5c9b1;
+    padding: 50px 50px 0 50px;
 }
 
 .contact-me div {
@@ -265,6 +290,14 @@ footer, section {
     font-size: 1.5vw;
     padding-left: 70px;
     color: #ffffff;
+}
+
+.contact-me a:link,
+.contact-me a:visited,
+.contact-me a:hover,
+.contact-me a:active {
+  text-decoration: none; 
+  color: #ffffff;
 }
 
 .contact-me img {
