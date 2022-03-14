@@ -191,6 +191,11 @@ footer, section {
     opacity: 0;
 }
 
+.samples {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .work-sample a:link,
 .work-sample a:visited,
 .work-sample a:hover,
@@ -229,16 +234,16 @@ footer, section {
     background-position: center;
     color: rgba(213, 195, 76, 0);
     font-display: none;
-    width: 80vw;
-    height: 80vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 .run-buddy:hover {
     background-color: rgba(120, 152, 115, 0.8);
     opacity: 100%;
     color: rgba(213, 195, 76, 1);
-    width: 80vw;
-    height: 80vw;
+    width: 40vw;
+    height: 40vw;
 }
 
   /*work-sample FANPAGE */
@@ -250,16 +255,16 @@ footer, section {
     background-position: center;
     color: rgba(208, 95, 26, 0);
     font-display: none;
-    width: 80vw;
-    height: 80vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 .fanpage:hover {
     background-color: rgba(248, 188, 155, 0.9);
     opacity: 100%;
     color: rgba(107, 51, 25, 1);
-    width: 80vw;
-    height: 80vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 .fanpage a:link {
@@ -302,4 +307,17 @@ footer, section {
 
 .contact-me img {
     padding: 0 50px 0 50px;
+}
+
+/* media query for TABLETS AND SMALLER */
+@media screen and (max-width: 700px) {
+    #run-buddy {
+        width: 80vw;
+        height: 80vw;
+    }
+    
+    #fanpage {
+        width: 80vw;
+        height: 80vw;
+    }
 }
