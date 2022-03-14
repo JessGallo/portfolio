@@ -88,26 +88,19 @@ footer, section {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
     display: flex;
-    align-items: center;
 }
 
 /* hero/jumbotron styling */
 .hero {
-    background-image: url("../css/images/hero.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
     background-color: #448fa0;
+    width: auto;
+    height: 50vw;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .hero h2 {
