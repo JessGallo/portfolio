@@ -204,6 +204,28 @@ footer, section {
   color:rgba(205, 214, 214, 0);
 }
 
+
+/* work-sample CRYPTO WATCH */
+#cryptoWatch {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./images/cryptowatch.png);
+    background-size: cover;
+    background-position: center;
+    color: rgba(205, 214, 214, 0);
+    font-display: none;
+    width: 40vw;
+    height: 40vw;
+}
+
+.cryptoWatch:hover {
+    background-color: rgba(120, 244, 225, 0.8);
+    opacity: 100%;
+    color: rgb(193, 73, 13);
+    width: 40vw;
+    height: 40vw;
+}
+
   /* work-sample HORISEON */
 #horiseon {
     display: flex;
@@ -213,16 +235,16 @@ footer, section {
     background-position: center;
     color: rgba(205, 214, 214, 0);
     font-display: none;
-    width: 80vw;
-    height: 80vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 .horiseon:hover {
     background-color: rgba(57, 93, 116, 0.8);
     opacity: 100%;
     color: rgba(205, 214, 214, 1);
-    width: 80vw;
-    height: 80vw;
+    width: 40vw;
+    height: 40vw;
 }
 
   /*work-sample RUN BUDDY*/
