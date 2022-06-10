@@ -204,6 +204,26 @@ footer, section {
   color:rgba(205, 214, 214, 0);
 }
 
+/* work-sample DIGITAL ARCADE */
+#digitalArcade {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./images/digitalarcade.png);
+    background-size: cover;
+    background-position: center;
+    color: rgba(181, 228, 85, 0.898);
+    font-display: none;
+    width: 40vw;
+    height: 40vw;
+}
+
+.digitalArcade:hover {
+    background-color: rgba(181, 228, 85, 0.898);
+    opacity: 100%;
+    color: rgb(33, 128, 131);
+    width: 40vw;
+    height: 40vw;
+}
 
 /* work-sample CRYPTO WATCH */
 #cryptoWatch {
